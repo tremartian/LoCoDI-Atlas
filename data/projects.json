@@ -1,0 +1,22 @@
+[
+    {
+        "id": "waziup",
+        "name": "Waziup",
+        "region": "Africa",
+        "technology": "LoRaWAN, Arduino",
+        "context": "Rural IoT Development",
+        "openness": "Fully Open",
+        "link": "https://waziup.io",
+        "coordinates": [10.0, -1.0]
+    },
+    {
+        "id": "smartcitizen",
+        "name": "Smart Citizen Kit",
+        "region": "Europe",
+        "technology": "ESP32, Environmental Sensors",
+        "context": "Urban Environmental Monitoring",
+        "openness": "Partially Open",
+        "link": "https://smartcitizen.me",
+        "coordinates": [41.3851, 2.1734]
+    }
+]
