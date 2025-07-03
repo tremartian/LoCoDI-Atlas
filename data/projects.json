@@ -1,22 +1,182 @@
 [
-    {
-        "id": "waziup",
-        "name": "Waziup",
-        "region": "Africa",
-        "technology": "LoRaWAN, Arduino",
-        "context": "Rural IoT Development",
-        "openness": "Fully Open",
-        "link": "https://waziup.io",
-        "coordinates": [10.0, -1.0]
-    },
-    {
-        "id": "smartcitizen",
-        "name": "Smart Citizen Kit",
-        "region": "Europe",
-        "technology": "ESP32, Environmental Sensors",
-        "context": "Urban Environmental Monitoring",
-        "openness": "Partially Open",
-        "link": "https://smartcitizen.me",
-        "coordinates": [41.3851, 2.1734]
-    }
+  {
+    "id": "moi_hub",
+    "name": "MOI Hub",
+    "region": "Finland",
+    "coordinates": [
+      62.79,
+      22.84
+    ],
+    "technology": "LoRaWAN, Arduino, ESP32, Raspberry Pi",
+    "context": "Local pilots, academic-led, strong SME collaboration",
+    "openness": "Fully Open",
+    "scope": "Regional\u2013Scalable",
+    "academic_engagement": 3,
+    "industrial_engagement": 3,
+    "hobbyist_engagement": 1,
+    "focus": "Regional LoRaWAN, workshops with companies",
+    "link": "https://www.tuni.fi/fi/tutkimus/seinajoki-multidisciplinary-open-iot-hub-moi"
+  },
+  {
+    "id": "shoestring",
+    "name": "Shoestring",
+    "region": "United Kingdom",
+    "coordinates": [
+      52.2053,
+      0.1218
+    ],
+    "technology": "Low-cost sensors, modular toolkit",
+    "context": "Structured toolkit for UK SMEs; open-source, academic methodology",
+    "openness": "Open-Source",
+    "scope": "Regional\u2013Scalable",
+    "academic_engagement": 3,
+    "industrial_engagement": 3,
+    "hobbyist_engagement": 1,
+    "focus": "Digital manufacturing for SMEs",
+    "link": "https://www.ifm.eng.cam.ac.uk/research/digital/small-make-smart/"
+  },
+  {
+    "id": "lodisa",
+    "name": "LoDiSA",
+    "region": "UK-led",
+    "coordinates": [
+      52.2053,
+      0.1218
+    ],
+    "technology": "Low-cost industrial automation",
+    "context": "International events from Cambridge",
+    "openness": "Open",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 3,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 1,
+    "focus": "Institutional network for digital sensing",
+    "link": "https://digitalshoestring.net/lodisa-workshop-2024/"
+  },
+  {
+    "id": "waziup",
+    "name": "Waziup / WaziHub",
+    "region": "Africa",
+    "coordinates": [
+      9.082,
+      8.6753
+    ],
+    "technology": "Low-cost IoT for rural settings",
+    "context": "Capacity building in Africa; EU-funded",
+    "openness": "Open-Source",
+    "scope": "Global\u2013Active",
+    "academic_engagement": 3,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 1,
+    "focus": "Community training and infrastructure",
+    "link": "https://www.waziup.org/"
+  },
+  {
+    "id": "openiot",
+    "name": "OpenIoT",
+    "region": "Europe",
+    "coordinates": [
+      48.8566,
+      2.3522
+    ],
+    "technology": "Open-source IoT platform",
+    "context": "EU-scale IoT research and industrial apps",
+    "openness": "Open-Source",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 3,
+    "industrial_engagement": 3,
+    "hobbyist_engagement": 1,
+    "focus": "Middleware, interoperability, modular systems",
+    "link": "https://openiot.eu/"
+  },
+  {
+    "id": "smart_citizen",
+    "name": "Smart Citizen Project",
+    "region": "Spain",
+    "coordinates": [
+      41.3851,
+      2.1734
+    ],
+    "technology": "Citizen sensing kits, open data",
+    "context": "FabLab-based citizen sensing with open kits",
+    "openness": "Open-Source",
+    "scope": "Community\u2013Global",
+    "academic_engagement": 2,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 3,
+    "focus": "Urban sensing and citizen science",
+    "link": "https://smartcitizen.me/"
+  },
+  {
+    "id": "iot_epi",
+    "name": "IoT-EPI",
+    "region": "Europe",
+    "coordinates": [
+      50.1109,
+      8.6821
+    ],
+    "technology": "Modular IoT architecture",
+    "context": "EU platform ecosystem",
+    "openness": "Open",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 3,
+    "industrial_engagement": 3,
+    "hobbyist_engagement": 1,
+    "focus": "Cost-effective platform interoperability",
+    "link": "https://iot-epi.eu/"
+  },
+  {
+    "id": "hardwarex",
+    "name": "HardwareX",
+    "region": "Global",
+    "coordinates": [
+      40.7128,
+      -74.006
+    ],
+    "technology": "Reproducible open hardware",
+    "context": "Academic journal",
+    "openness": "Fully Open",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 3,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 2,
+    "focus": "Publishing open-source hardware",
+    "link": "https://www.hardware-x.com/"
+  },
+  {
+    "id": "softwarex",
+    "name": "SoftwareX",
+    "region": "Global",
+    "coordinates": [
+      34.0522,
+      -118.2437
+    ],
+    "technology": "Open-source scientific software",
+    "context": "Open-source publishing venue",
+    "openness": "Fully Open",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 3,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 2,
+    "focus": "Scientific code and methods publication",
+    "link": "https://www.sciencedirect.com/journal/softwarex"
+  },
+  {
+    "id": "gosh",
+    "name": "GOSH",
+    "region": "Global (rotating)",
+    "coordinates": [
+      0,
+      0
+    ],
+    "technology": "Open science hardware",
+    "context": "DIY science hardware and community",
+    "openness": "Open",
+    "scope": "Community\u2013Global",
+    "academic_engagement": 2,
+    "industrial_engagement": 1,
+    "hobbyist_engagement": 3,
+    "focus": "Inclusion-focused hardware development",
+    "link": "https://openhardware.science/"
+  }
 ]
