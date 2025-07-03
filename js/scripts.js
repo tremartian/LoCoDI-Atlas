@@ -38,10 +38,18 @@ function showDetails(project) {
     const panel = document.getElementById('initiative-details');
     panel.innerHTML = `
         <h3>${project.name}</h3>
+        <p><strong>Region:</strong> ${project.region}</p>
+        <p><strong>Scope:</strong> ${project.scope || '—'}</p>
         <p><strong>Context:</strong> ${project.context}</p>
         <p><strong>Technology:</strong> ${project.technology}</p>
         <p><strong>Openness:</strong> ${project.openness}</p>
-        <p><strong>Region:</strong> ${project.region}</p>
+        <p><strong>Focus:</strong> ${project.focus || '—'}</p>
+        <p><strong>Engagement:</strong> 
+            Academic: ${project.academic_engagement || '—'}, 
+            Industrial: ${project.industrial_engagement || '—'}, 
+            Hobbyist: ${project.hobbyist_engagement || '—'}
+        </p>
         <p><a href="${project.link}" target="_blank">Official Website</a></p>
     `;
 }
+
