@@ -6,20 +6,20 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '© OpenStreetMap contributors'
 }).addTo(map);
 
-// Load initiative data
+// Fetch data
 fetch('data/projects.json')
-    .then(response => response.json())
+    .then(res => res.json())
     .then(data => {
         const listContainer = document.getElementById('initiative-list-items');
 
         data.forEach(project => {
-            // Add marker to map
+            // Marker on map
             if (project.coordinates) {
                 const marker = L.marker(project.coordinates).addTo(map);
                 marker.on('click', () => showDetails(project));
             }
 
-            // Add to list
+            // List entry
             const li = document.createElement('li');
             li.innerHTML = `<strong>${project.name}</strong> – ${project.context}`;
             li.addEventListener('click', () => {
@@ -29,11 +29,11 @@ fetch('data/projects.json')
             listContainer.appendChild(li);
         });
     })
-    .catch(error => {
-        console.error("Error loading project data:", error);
+    .catch(err => {
+        console.error("Failed to load project data:", err);
     });
 
-// Show details in info panel
+// Show full details in the panel
 function showDetails(project) {
     const panel = document.getElementById('initiative-details');
     panel.innerHTML = `
