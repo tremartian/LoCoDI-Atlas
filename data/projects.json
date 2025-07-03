@@ -178,5 +178,95 @@
     "hobbyist_engagement": 3,
     "focus": "Inclusion-focused hardware development",
     "link": "https://openhardware.science/"
+  },
+  {
+    "id": "mozilla_iot",
+    "name": "Mozilla IoT",
+    "region": "Global",
+    "coordinates": [
+      47.6062,
+      -122.3321
+    ],
+    "technology": "Open-source smart home platform",
+    "context": "Smart home platform with hobbyist/dev appeal",
+    "openness": "Open-Source",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 2,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 3,
+    "focus": "Smart home and edge device integration",
+    "link": "https://iot.mozilla.org/"
+  },
+  {
+    "id": "ieee_ghtc",
+    "name": "IEEE GHTC / ICT4D",
+    "region": "Global",
+    "coordinates": [
+      37.7749,
+      -122.4194
+    ],
+    "technology": "Development-focused IoT for humanitarian use",
+    "context": "Academic events with occasional IoT content",
+    "openness": "Mixed",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 3,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 1,
+    "focus": "ICT4D, development, humanitarian applications",
+    "link": "https://ieeeghtc.org/"
+  },
+  {
+    "id": "openremote",
+    "name": "OpenRemote",
+    "region": "Global",
+    "coordinates": [
+      50.8514,
+      5.69
+    ],
+    "technology": "IoT visualization and integration platform",
+    "context": "Open-source platform for managing IoT deployments",
+    "openness": "Open-Source",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 2,
+    "industrial_engagement": 3,
+    "hobbyist_engagement": 1,
+    "focus": "Smart city platforms and management",
+    "link": "https://openremote.io/"
+  },
+  {
+    "id": "mongoose_os",
+    "name": "Mongoose OS",
+    "region": "Global",
+    "coordinates": [
+      37.3875,
+      -122.0575
+    ],
+    "technology": "IoT firmware for MCUs",
+    "context": "Firmware development for low-power MCUs",
+    "openness": "Open-Source",
+    "scope": "Global\u2013Institutional",
+    "academic_engagement": 2,
+    "industrial_engagement": 3,
+    "hobbyist_engagement": 2,
+    "focus": "Rapid prototyping and MCU firmware",
+    "link": "https://mongoose-os.com/"
+  },
+  {
+    "id": "mysensors",
+    "name": "MySensors",
+    "region": "Global",
+    "coordinates": [
+      59.3293,
+      18.0686
+    ],
+    "technology": "Wireless DIY sensor network",
+    "context": "DIY sensor framework with hobbyist community",
+    "openness": "Open-Source",
+    "scope": "Community\u2013Global",
+    "academic_engagement": 2,
+    "industrial_engagement": 2,
+    "hobbyist_engagement": 3,
+    "focus": "Home automation, low-cost wireless sensor kits",
+    "link": "https://www.mysensors.org/"
   }
 ]
